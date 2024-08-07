@@ -7,25 +7,18 @@ Inspired by the power of Diffusion Models (DM) verified in various fields, some 
 ## Dependencies
 - Python 3.8.10
 - PyTorch 1.12.0+cu102
-- pytorch-lightning==1.6.5
-- Torchvision==0.8.2
-- Pandas==1.3.5
-- Scipy==1.7.
-
-## Dependencies
-- Python 3.8.10
-- PyTorch 1.12.0+cu102
 - Torchvision==0.8.2
 - Pandas==1.3.5
 - Scipy==1.7.3
 
-### SeeDRec (SASRec) on Home:
+## Implementation of PDRec
+### For Home:
 ```
-CUDA_VISIBLE_DEVICES=3 python SeeDRec.py --cross_dataset=Home --lr 0.005 --temperature 10 --index 001
+CUDA_VISIBLE_DEVICES=3 python SeeDRec.py --cross_dataset=Home --lr 0.005 --temperature 10 --index 1
 ```
-### SeeDRec (SASRec) on Electronic:
+### For Electronic:
 ```
-CUDA_VISIBLE_DEVICES=3 python SeeDRec.py --cross_dataset=Electronic --lr 0.001 --temperature 10 --index 001
+CUDA_VISIBLE_DEVICES=3 python SeeDRec.py --cross_dataset=Electronic --lr 0.001 --temperature 10 --index 1
 ```
 
 ## BibTeX
