@@ -11,12 +11,12 @@ Inspired by the power of Diffusion Models (DM) verified in various fields, some 
 - Pandas==1.3.5
 - Scipy==1.7.3
 
-## Implementation of PDRec
-### For Home:
+## Implementation of SeeDRec
+### SeeDRec on Home:
 ```
 CUDA_VISIBLE_DEVICES=3 python SeeDRec.py --cross_dataset=Home --lr 0.005 --temperature 10 --index 1
 ```
-### For Electronic:
+### SeeDRec on Electronic:
 ```
 CUDA_VISIBLE_DEVICES=3 python SeeDRec.py --cross_dataset=Electronic --lr 0.001 --temperature 10 --index 1
 ```
